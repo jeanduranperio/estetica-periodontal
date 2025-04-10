@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estética Periodontal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #009688;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #00796b;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px;
+      background: #fff;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+    }
+    footer {
+      background: #009688;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    @media (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Estética Periodontal</h1>
+    <p>Mejorando tu sonrisa a través de la salud periodontal</p>
+  </header>
+  
+  <nav>
+    <a href="#introduccion">Inicio</a>
+    <a href="#tratamientos">Tratamientos</a>
+    <a href="#antes-despues">Antes y Después</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="container">
+    <!-- Sección de Introducción -->
+    <section id="introduccion">
+      <h2>Introducción</h2>
+      <p>La estética periodontal se enfoca en la salud y belleza de las encías, promoviendo un entorno bucal saludable que resalta la sonrisa natural de cada paciente. Nuestro objetivo es brindar tratamientos personalizados que garanticen resultados armónicos y duraderos.</p>
+      <img src="https://via.placeholder.com/800x400?text=Estética+Periodontal" alt="Imagen de estética periodontal">
+    </section>
+
+    <!-- Sección de Tratamientos -->
+    <section id="tratamientos">
+      <h2>Tratamientos</h2>
+      <p>Ofrecemos una amplia gama de tratamientos orientados a mejorar la salud periodontal y la apariencia de las encías, tales como:</p>
+      <ul>
+        <li>Limpieza y raspado dental</li>
+        <li>Cirugía estética de encías</li>
+        <li>Regeneración tisular</li>
+        <li>Blanqueamiento periodontal</li>
+      </ul>
+      <img src="https://via.placeholder.com/800x400?text=Tratamientos+Periodontales" alt="Tratamientos periodontales">
+    </section>
+
+    <!-- Sección de Antes y Después -->
+    <section id="antes-despues">
+      <h2>Antes y Después</h2>
+      <p>Observa los increíbles resultados de nuestros tratamientos a través de estas imágenes comparativas:</p>
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <div style="flex: 1; margin: 10px;">
+          <img src="https://via.placeholder.com/400x300?text=Antes" alt="Antes del tratamiento">
+          <p style="text-align: center;">Antes</p>
+        </div>
+        <div style="flex: 1; margin: 10px;">
+          <img src="https://via.placeholder.com/400x300?text=Después" alt="Después del tratamiento">
+          <p style="text-align: center;">Después</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Beneficios -->
+    <section id="beneficios">
+      <h2>Beneficios</h2>
+      <p>Al mejorar la estética periodontal, no solo obtendrás una sonrisa más hermosa, sino que también mejorarás tu salud bucal en general. Algunos beneficios incluyen:</p>
+      <ul>
+        <li>Reducción de la inflamación y sensibilidad</li>
+        <li>Prevención de enfermedades periodontales</li>
+        <li>Incremento de la autoestima</li>
+        <li>Mejor integración de los tratamientos estéticos y funcionales</li>
+      </ul>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Si deseas más información o agendar una consulta, contáctanos:</p>
+      <p><strong>Teléfono:</strong> +34 123 456 789</p>
+      <p><strong>Email:</strong> info@esteticaperiodontal.com</p>
+      <form action="#" method="post">
+        <div>
+          <label for="nombre">Nombre:</label><br>
+          <input type="text" id="nombre" name="nombre" required style="width: 100%; padding: 8px; margin: 5px 0;">
+        </div>
+        <div>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin: 5px 0;">
+        </div>
+        <div>
+          <label for="mensaje">Mensaje:</label><br>
+          <textarea id="mensaje" name="mensaje" rows="5" required style="width: 100%; padding: 8px; margin: 5px 0;"></textarea>
+        </div>
+        <button type="submit" style="background: #00796b; color: #fff; padding: 10px 20px; border: none; cursor: pointer;">Enviar</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Estética Periodontal. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
