@@ -1,184 +1,168 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Estética Periodontal</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Montserrat', sans-serif;
-      background-color: #e3f2fd; /* fondo azul claro */
-      color: #000000; /* texto negro */
-      line-height: 1.6;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estética Periodontal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #e6f0fa; /* Azul claro */
+            color: #000000; /* Texto negro */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
 
-    header {
-      background-color: #0288d1;
-      padding: 30px 20px;
-      text-align: center;
-    }
+        header {
+            background-color: #0077cc; /* Azul más fuerte */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
 
-    header h1 {
-      margin: 0;
-      font-family: 'Playfair Display', serif;
-      font-size: 2.5rem;
-      color: #26a69a; /* verde agua */
-    }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+        }
 
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin-top: 15px;
-      display: flex;
-      justify-content: center;
-      gap: 25px;
-      flex-wrap: wrap;
-    }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
 
-    nav ul li a {
-      text-decoration: none;
-      color: #26a69a;
-      font-weight: bold;
-    }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
 
-    section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
-      background-color: #ffffff;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-      margin-bottom: 40px;
-    }
+        nav ul li a {
+            color: #00c2a8; /* Verde agua */
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-    h2 {
-      font-family: 'Playfair Display', serif;
-      color: #26a69a;
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
 
-    p, li, label {
-      font-size: 1rem;
-      color: #000000 !important; /* Fuerza el negro para que no sea claro */
-    }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: #00c2a8;
+        }
 
-    img {
-      width: 100%;
-      max-width: 600px;
-      display: block;
-      margin: 25px auto;
-      border-radius: 10px;
-    }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
 
-    ul {
-      padding-left: 20px;
-    }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
 
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
 
-    input, textarea {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 1rem;
-    }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
 
-    button {
-      background-color: #26a69a;
-      color: #fff;
-      padding: 12px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: background-color 0.3s;
-    }
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #00c2a8;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
 
-    button:hover {
-      background-color: #1e857c;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px 20px;
-      background-color: #b2ebf2;
-      color: #000;
-    }
-  </style>
+        footer {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Estética Periodontal</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#equipo">Nuestro Equipo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <header>
-    <h1>Estética Periodontal</h1>
-    <nav>
-      <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#equipo">Nuestro Equipo</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <section id="inicio">
+        <h2>Bienvenido a Nuestra Clínica</h2>
+        <p>Somos especialistas en tratamientos de estética periodontal para mejorar tu sonrisa.</p>
+        <img src="sonrisa-gingival.png" alt="Imagen de sonrisa gingival">
+    </section>
 
-  <section id="inicio">
-    <h2>Bienvenido a Nuestra Clínica</h2>
-    <p>Somos especialistas en tratamientos de estética periodontal para mejorar tu sonrisa.</p>
-    <img src="sonrisa-gingival.png" alt="Imagen de sonrisa gingival">
-  </section>
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li>✔ Blanqueamiento dental</li>
+            <li>✔ Corrección de encías</li>
+            <li>✔ Implantes dentales</li>
+            <li>✔ Ortodoncia estética</li>
+        </ul>
+    </section>
 
-  <section id="servicios">
-    <h2>Nuestros Servicios</h2>
-    <ul>
-      <li>Blanqueamiento dental</li>
-      <li>Corrección de encías</li>
-      <li>Implantes dentales</li>
-      <li>Ortodoncia estética</li>
-    </ul>
-  </section>
+    <section id="antes-despues">
+        <h2>Antes y Después</h2>
+        <img src="antes-despues.png" alt="Antes y después del tratamiento">
+    </section>
 
-  <section id="antes-despues">
-    <h2>Antes y Después</h2>
-    <img src="antes-despues.png" alt="Antes y después del tratamiento">
-  </section>
+    <section id="equipo">
+        <h2>Nuestro Equipo</h2>
+        <p>Conoce a nuestros expertos en salud periodontal y estética dental.</p>
+    </section>
 
-  <section id="equipo">
-    <h2>Nuestro Equipo</h2>
-    <p>Conoce a nuestros expertos en salud periodontal y estética dental.</p>
-  </section>
+    <section id="beneficios">
+        <h2>Beneficios del Tratamiento</h2>
+        <p>Descubre cómo una sonrisa saludable puede mejorar tu calidad de vida.</p>
+        <img src="paciente-feliz.png" alt="Paciente feliz">
+    </section>
 
-  <section id="beneficios">
-    <h2>Beneficios del Tratamiento</h2>
-    <p>Descubre cómo una sonrisa saludable puede mejorar tu calidad de vida.</p>
-    <img src="paciente-feliz.png" alt="Paciente feliz">
-  </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
 
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <form>
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
 
-      <label for="email">Correo Electrónico:</label>
-      <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
 
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Estética Periodontal. Todos los derechos reservados.</p>
-  </footer>
-
+    <footer>
+        <p>&copy; 2025 Estética Periodontal. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
